@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from chirpstack_api.as_pb.external.api import fuotaDeployment_pb2 as chirpstack__api_dot_as__pb_dot_external_dot_api_dot_fuotaDeployment__pb2
+from chirpstack_api_v3.as_pb.external.api import fuotaDeployment_pb2 as chirpstack__api_dot_as__pb_dot_external_dot_api_dot_fuotaDeployment__pb2
 
 
 class FUOTADeploymentServiceStub(object):

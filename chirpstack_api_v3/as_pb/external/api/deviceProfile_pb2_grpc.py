@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from chirpstack_api.as_pb.external.api import deviceProfile_pb2 as chirpstack__api_dot_as__pb_dot_external_dot_api_dot_deviceProfile__pb2
+from chirpstack_api_v3.as_pb.external.api import deviceProfile_pb2 as chirpstack__api_dot_as__pb_dot_external_dot_api_dot_deviceProfile__pb2
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
 
 

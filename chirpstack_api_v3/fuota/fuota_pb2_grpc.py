@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from chirpstack_api.fuota import fuota_pb2 as chirpstack__api_dot_fuota_dot_fuota__pb2
+from chirpstack_api_v3.fuota import fuota_pb2 as chirpstack__api_dot_fuota_dot_fuota__pb2
 
 
 class FUOTAServerServiceStub(object):

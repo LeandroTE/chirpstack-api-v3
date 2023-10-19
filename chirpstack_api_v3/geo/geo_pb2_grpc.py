@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from chirpstack_api.geo import geo_pb2 as chirpstack__api_dot_geo_dot_geo__pb2
+from chirpstack_api_v3.geo import geo_pb2 as chirpstack__api_dot_geo_dot_geo__pb2
 
 
 class GeolocationServerServiceStub(object):

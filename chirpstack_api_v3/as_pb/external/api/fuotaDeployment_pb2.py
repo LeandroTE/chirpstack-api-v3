@@ -15,7 +15,7 @@ _sym_db = _symbol_database.Default()
 from google.api import annotations_pb2 as google_dot_api_dot_annotations__pb2
 from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
 from google.protobuf import duration_pb2 as google_dot_protobuf_dot_duration__pb2
-from chirpstack_api.as_pb.external.api import multicastGroup_pb2 as chirpstack__api_dot_as__pb_dot_external_dot_api_dot_multicastGroup__pb2
+from chirpstack_api_v3.as_pb.external.api import multicastGroup_pb2 as chirpstack__api_dot_as__pb_dot_external_dot_api_dot_multicastGroup__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -731,91 +731,91 @@ _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 FUOTADeployment = _reflection.GeneratedProtocolMessageType('FUOTADeployment', (_message.Message,), {
   'DESCRIPTOR' : _FUOTADEPLOYMENT,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.FUOTADeployment)
   })
 _sym_db.RegisterMessage(FUOTADeployment)
 
 FUOTADeploymentListItem = _reflection.GeneratedProtocolMessageType('FUOTADeploymentListItem', (_message.Message,), {
   'DESCRIPTOR' : _FUOTADEPLOYMENTLISTITEM,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.FUOTADeploymentListItem)
   })
 _sym_db.RegisterMessage(FUOTADeploymentListItem)
 
 CreateFUOTADeploymentForDeviceRequest = _reflection.GeneratedProtocolMessageType('CreateFUOTADeploymentForDeviceRequest', (_message.Message,), {
   'DESCRIPTOR' : _CREATEFUOTADEPLOYMENTFORDEVICEREQUEST,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.CreateFUOTADeploymentForDeviceRequest)
   })
 _sym_db.RegisterMessage(CreateFUOTADeploymentForDeviceRequest)
 
 CreateFUOTADeploymentForDeviceResponse = _reflection.GeneratedProtocolMessageType('CreateFUOTADeploymentForDeviceResponse', (_message.Message,), {
   'DESCRIPTOR' : _CREATEFUOTADEPLOYMENTFORDEVICERESPONSE,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.CreateFUOTADeploymentForDeviceResponse)
   })
 _sym_db.RegisterMessage(CreateFUOTADeploymentForDeviceResponse)
 
 GetFUOTADeploymentRequest = _reflection.GeneratedProtocolMessageType('GetFUOTADeploymentRequest', (_message.Message,), {
   'DESCRIPTOR' : _GETFUOTADEPLOYMENTREQUEST,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.GetFUOTADeploymentRequest)
   })
 _sym_db.RegisterMessage(GetFUOTADeploymentRequest)
 
 GetFUOTADeploymentResponse = _reflection.GeneratedProtocolMessageType('GetFUOTADeploymentResponse', (_message.Message,), {
   'DESCRIPTOR' : _GETFUOTADEPLOYMENTRESPONSE,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.GetFUOTADeploymentResponse)
   })
 _sym_db.RegisterMessage(GetFUOTADeploymentResponse)
 
 ListFUOTADeploymentRequest = _reflection.GeneratedProtocolMessageType('ListFUOTADeploymentRequest', (_message.Message,), {
   'DESCRIPTOR' : _LISTFUOTADEPLOYMENTREQUEST,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.ListFUOTADeploymentRequest)
   })
 _sym_db.RegisterMessage(ListFUOTADeploymentRequest)
 
 ListFUOTADeploymentResponse = _reflection.GeneratedProtocolMessageType('ListFUOTADeploymentResponse', (_message.Message,), {
   'DESCRIPTOR' : _LISTFUOTADEPLOYMENTRESPONSE,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.ListFUOTADeploymentResponse)
   })
 _sym_db.RegisterMessage(ListFUOTADeploymentResponse)
 
 ListFUOTADeploymentDevicesRequest = _reflection.GeneratedProtocolMessageType('ListFUOTADeploymentDevicesRequest', (_message.Message,), {
   'DESCRIPTOR' : _LISTFUOTADEPLOYMENTDEVICESREQUEST,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.ListFUOTADeploymentDevicesRequest)
   })
 _sym_db.RegisterMessage(ListFUOTADeploymentDevicesRequest)
 
 GetFUOTADeploymentDeviceRequest = _reflection.GeneratedProtocolMessageType('GetFUOTADeploymentDeviceRequest', (_message.Message,), {
   'DESCRIPTOR' : _GETFUOTADEPLOYMENTDEVICEREQUEST,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.GetFUOTADeploymentDeviceRequest)
   })
 _sym_db.RegisterMessage(GetFUOTADeploymentDeviceRequest)
 
 GetFUOTADeploymentDeviceResponse = _reflection.GeneratedProtocolMessageType('GetFUOTADeploymentDeviceResponse', (_message.Message,), {
   'DESCRIPTOR' : _GETFUOTADEPLOYMENTDEVICERESPONSE,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.GetFUOTADeploymentDeviceResponse)
   })
 _sym_db.RegisterMessage(GetFUOTADeploymentDeviceResponse)
 
 ListFUOTADeploymentDevicesResponse = _reflection.GeneratedProtocolMessageType('ListFUOTADeploymentDevicesResponse', (_message.Message,), {
   'DESCRIPTOR' : _LISTFUOTADEPLOYMENTDEVICESRESPONSE,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.ListFUOTADeploymentDevicesResponse)
   })
 _sym_db.RegisterMessage(ListFUOTADeploymentDevicesResponse)
 
 FUOTADeploymentDeviceListItem = _reflection.GeneratedProtocolMessageType('FUOTADeploymentDeviceListItem', (_message.Message,), {
   'DESCRIPTOR' : _FUOTADEPLOYMENTDEVICELISTITEM,
-  '__module__' : 'chirpstack_api.as_pb.external.api.fuotaDeployment_pb2'
+  '__module__' : 'chirpstack_api_v3.as_pb.external.api.fuotaDeployment_pb2'
   # @@protoc_insertion_point(class_scope:api.FUOTADeploymentDeviceListItem)
   })
 _sym_db.RegisterMessage(FUOTADeploymentDeviceListItem)
