@@ -5,7 +5,7 @@ ChirpStack v3 gRPC API message and service wrappers for Python.
 ## Install
 
 ```sh
-pip install -e git+http://github.com/LeandroTE/chirpstack-apiV3#egg=chirpstack-api-v3
+pip install -e git+http://github.com/LeandroTE/chirpstack-api-v3#egg=chirpstack-api-v3
 ```
 
 ## Usage
